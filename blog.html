@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@undefined,undefined,undefined,undefined"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <title>University Web Site Design</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="./imgs/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="bx bx-x" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Course</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <i class="bx bx-menu" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses & Online Programs 2022</h1>
+    </section>
+    <!-- Blog Page Contenet -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="./imgs/certificate.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat,
+            fugit et dolorem delectus non ab est quam similique maxime placeat.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat,
+            fugit et dolorem delectus non ab est quam similique maxime placeat.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+            incidunt officiis asperiores hic deleniti temporibus nulla excepturi
+            sunt ut!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            error in laudantium deserunt quis amet? Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Repellat, fugit et dolorem delectus
+            non ab est quam similique maxime placeat. Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Dolorum incidunt officiis asperiores
+            hic deleniti temporibus nulla excepturi sunt ut!
+            <br />
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat,
+            fugit et dolorem delectus non ab est quam similique maxime placeat.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+            incidunt officiis asperiores hic deleniti temporibus nulla excepturi
+            sunt ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repellat, fugit et dolorem delectus non ab est quam similique maxime
+            placeat. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Dolorum incidunt officiis asperiores hic deleniti temporibus nulla
+            excepturi sunt ut!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            error in laudantium deserunt quis amet? Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Repellat, fugit et dolorem delectus
+            non ab est quam similique maxime placeat. Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Dolorum incidunt officiis asperiores
+            hic deleniti temporibus nulla excepturi sunt ut!
+            <br />
+          </p>
+          <div class="comment-box">
+            <h3>Leave here a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Your Name" />
+              <input type="text" placeholder="Enter Your Email" />
+              <textarea
+                name=""
+                id=""
+                cols="5"
+                rows="10"
+                placeholder="your comment"
+              >
+              </textarea>
+              <button class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="blog-right">
+          <h3>Post Catogories</h3>
+          <div>
+            <span>Business Analyst</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Business Analyst</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Business Analyst</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Business Analyst</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Business Analyst</span>
+            <span>21</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <section class="footer">
+      <h4>Courses</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Architecto, natus?
+        inventore.
+      </p>
+      <div class="icons">
+        <i class="bx bxl-meta"></i>
+        <i class="bx bxl-instagram"></i>
+        <i class="bx bxl-twitter"></i>
+        <i class="bx bxl-linkedin"></i>
+      </div>
+      <p class="">Made by <i class="bx bxs-heart"></i>İhlas MERT</p>
+    </section>
+
+    <!-- COURSES -->
+    <!-- JAVASCRİPT FOR TOGGLE -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
